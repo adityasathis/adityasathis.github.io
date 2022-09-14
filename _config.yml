@@ -13,7 +13,8 @@ description:      'A personal website (and sometimes blog) of one Aditya Sathish
 url:              http://adityasathis.github.io/
 baseurl:          ''
 
-paginate:         5
+paginate:         2
+paginate_path:    "/blog/page-:num/"
 
 # Custom vars
 version:          2.1.0
