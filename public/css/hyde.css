@@ -80,9 +80,14 @@ html {
 
 /* About section */
 .sidebar-about .profile-picture {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 50px;
   border-radius: 50%;
   border: solid #ffffff 4px;
   background: url({{ '/' | relative_url }}public/profile.png) center no-repeat;
+  background-size: 250px 250px;
 }
 
 .sidebar-about h1 {
