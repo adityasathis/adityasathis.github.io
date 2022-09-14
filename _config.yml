@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -11,11 +11,12 @@ title:            Aditya Sathish
 tagline:          'The internet home of Aditya Sathish'
 description:      'A personal website (and sometimes blog) of one Aditya Sathish'
 url:              http://adityasathis.github.io/
+baseurl:          http://adityasathis.github.io/
 
 author:
   name:           'Aditya Sathish'
-  url:            https://adityasathis.github.io/
-  baseurl:        https://adityasathis.github.io/
+  url:            http://adityasathis.github.io/
+  baseurl:        http://adityasathis.github.io/
 
 paginate:         5
 
