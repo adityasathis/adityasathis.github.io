@@ -7,7 +7,7 @@ permalink:        pretty
 gem:              [jekyll-paginate jekyll-gist]
 
 # Setup
-title:            Aditya Sathish Sathish
+title:            Aditya Sathish
 tagline:          'The internet home of Aditya Sathish'
 description:      'A personal website (and sometimes blog) of one Aditya Sathish'
 url:              http://adityasathis.github.io/
