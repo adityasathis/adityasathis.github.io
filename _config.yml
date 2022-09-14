@@ -1,21 +1,20 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+gem:              [jekyll-paginate jekyll-gist]
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          http://adityasathis.github.com/
+title:            Aditya Sathish's Landing Page
+tagline:          'The internet home of Aditya Sathish'
+description:      'A personal website (and sometimes blog) of one Aditya Sathish'
+url:              http://adityasathis.github.io/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Aditya Sathish'
+  url:            https://adityasathis.github.io/
 
 paginate:         5
 
@@ -24,3 +23,5 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+plugins:		  [jekyll-paginate, jekyll-gist]
