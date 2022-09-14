@@ -8,15 +8,10 @@ gem:              [jekyll-paginate jekyll-gist]
 
 # Setup
 title:            Aditya Sathish
-tagline:          'The internet home of Aditya Sathish'
+tagline:          ''
 description:      'A personal website (and sometimes blog) of one Aditya Sathish'
 url:              http://adityasathis.github.io/
-baseurl:          http://adityasathis.github.io/
-
-author:
-  name:           'Aditya Sathish'
-  url:            http://adityasathis.github.io/
-  baseurl:        http://adityasathis.github.io/
+baseurl:          ''
 
 paginate:         5
 
