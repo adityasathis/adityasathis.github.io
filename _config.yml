@@ -19,6 +19,8 @@ paginate_path:    "/blog/page-:num/"
 # Custom vars
 version:          1.1
 
+port:             4001
+
 github:
   repo:           https://github.com/poole/hyde
 
