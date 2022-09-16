@@ -6,16 +6,17 @@
       <p class="lead">
           {{ site.description }}
       </p>
-      <p class="social links">
-          <a class="social-links" href="#"><i class="fa-brands fa-github"></i></a>
-          <a class="social-links" href="#"><i class="fa-brands fa-linkedin"></i></a>
-          <a class="social-links" href="#"><i class="fa-regular fa-envelope"></i></a>
+      <p class="social-links">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-regular fa-envelope"></i></a>
       </p>
     </div>
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == '/' | site.baseurl %} active{% endif %}" href="{{ site.url }}">Home</a>
-      <a class="sidebar-nav-item{% if '/blog/' == page.url %} active{% endif %}" href="{{ '/blog/' }}">Blog</a>
+      <a class="sidebar-nav-item{% if '/blog/' == page.url %} active{% endif %}" href="/blog/">Blog</a>
+      <a class="sidebar-nav-item{% if '/blog/' == page.url %} active{% endif %}" href="{{ '/blog/' }}">Resume</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with

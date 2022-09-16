@@ -9,9 +9,9 @@ gem:              [jekyll-paginate jekyll-gist]
 # Setup
 title:            Aditya Sathish
 tagline:          ''
-description:      'A personal website (and sometimes blog) of one Aditya Sathish'
+description:      ''
 url:              http://adityasathis.github.io/
-baseurl:          ''
+baseurl:          '/'
 
 paginate:         2
 paginate_path:    "/blog/page-:num/"

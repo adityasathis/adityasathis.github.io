@@ -33,6 +33,7 @@
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 @media (min-width: 48em) {
   html {
@@ -86,7 +87,7 @@ html {
   height: 250px;
   width: 250px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-radius: 50%;
   border: solid #ffffff 4px;
   background: url(/public/profile.png) center no-repeat;
@@ -97,11 +98,15 @@ html {
   font-size: 30px;
   color: #ffffff;
   margin-top: 10px;
+  text-align: center;
+}
+
+.sidebar-about .social-links a {
   padding: 10px;
 }
 
-.sidebar-about .social-links:hover,
-.sidebar-about .social-links:focus {
+.sidebar-about .social-links a:hover,
+.sidebar-about .social-links a:focus {
   color: #FFC300;
 }
 
@@ -110,6 +115,7 @@ html {
   font-family: "Oswald", sans-serif;
   color: #000000;
   font-size: 50px;
+  text-align: center;
 }
 
 /* Sidebar nav */
@@ -119,6 +125,7 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  text-align: center;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -200,6 +207,7 @@ a.sidebar-nav-item:focus {
 .box {
   display: flex;
   min-height: 200px;
+  padding-bottom: 50px;
 }
 
 .box .box-pic {
