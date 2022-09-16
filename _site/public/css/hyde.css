@@ -197,6 +197,20 @@ a.sidebar-nav-item:focus {
 }
 
 
+.box {
+  display: flex;
+  min-height: 200px;
+}
+
+.box .box-pic {
+  flex: 1;
+  padding: 10px;
+}
+
+.box .box-text {
+  flex: 3;
+}
+
 
 /*
  * Themes
