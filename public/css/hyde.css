@@ -251,6 +251,22 @@ a.sidebar-nav-item:focus {
   padding: 5px;
 }
 
+.tag-red {
+  border-radius: 5%;
+  padding: 10px;
+  background: red;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.tag-red:hover,
+.tag-blue:hover,
+.tag-black:hover,
+.tag-yellow:hover,
+.tag-green:hover {
+  background: grey;
+  color: black;
+}
 
 /*
  * Themes
